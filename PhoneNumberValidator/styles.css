@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(182, 156, 223);
+}
+
+main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#outerBody {
+
+    border: 10px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 650px;
+    background-color: antiquewhite;
+}
+
+#phone-camera {
+    background: black;
+    margin: 10px auto;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+#results-div {
+    background-color: rgb(255, 255, 255);
+    margin: 15px 25px;
+    height: 380px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-bottom: outset;
+    font-size: larger;
+    text-align: center;
+
+}
+
+#buttons {
+    align-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    border-radius: 20px;
+    border: 0px;
+    background-color: red;
+    margin: 10px;
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+}
+
+button:hover {
+    transition-property: background-color;
+    transition-duration: 300ms;
+    background-color: green;
+
+}
+
+#bottom-slider {
+    background: black;
+    margin: 17px auto;
+    border-radius: 20px;
+    height: 4.5px;
+    width: 60px;
+}
+
+.valid{
+    color: green;
+}
+.inValid{
+    color: red;
+}
